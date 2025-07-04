@@ -9,6 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ai-sdk/react": "^1.2.12",
+    "@letta-ai/letta-nextjs": "^0.0.13",
+    "@letta-ai/vercel-ai-sdk-provider": "^0.0.8",
+    "ai": "^4.3.16",
     "axios": "^1.10.0",
     "dayjs": "^1.11.13",
     "leaflet": "^1.9.4",
@@ -21,8 +25,11 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
+    "@types/node": "^24.0.10",
+    "@types/react": "19.1.8",
     "eslint": "^9",
     "eslint-config-next": "15.3.5",
-    "tailwindcss": "^4"
+    "tailwindcss": "^4",
+    "typescript": "^5.8.3"
   }
 }
